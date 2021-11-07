@@ -33,6 +33,24 @@ $('.slider-shop').slick({
         }
     }]
 });
+$('.testimonials-slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    speed: 500,
+    autoplay: 0,
+    Infinity: true, 
+    pauseOnHover: true,
+    // waitForAnimate: false,
+
+    // responsive: [   
+    // {    
+    //     breakpoint: 500,
+    //     settings: {
+    //         slidesToShow: 2,
+    //         slidesToScroll: 1, 
+    //     }
+    // }]
+});
 
 
 // // Scroll Animation
