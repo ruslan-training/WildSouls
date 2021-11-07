@@ -46,8 +46,9 @@ a {
 }
 .section {
     position: relative;
-    height: 100vh;
     background: url(img/section_bg.png) center / cover no-repeat;
+    width: 100vw;
+
 }
 .section__logo img {
     width: 100%;
@@ -751,3 +752,4 @@ h2 {
     top: -14.58vw;
     left: -19.02vw;
 }
+// recipes
